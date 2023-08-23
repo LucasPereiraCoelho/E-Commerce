@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo > img{
+    height: 70px;
+}
+
+.nav-menu{
+    display: flex;
+    gap: 20px;
+}
+
+.bars{
+    display: flex;
+    gap: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+    
+}
+
+.d-flex{
+    width: 700px;
+    margin: 10px auto;
+}
+
+.oferta{
+    text-align: center;
+    margin: 40px;
+}
+
+.camisa{
+    height: 100vh;
+    
+}
+
+.calca{
+    height: 100vh;
+}
+
+.tenis{
+    height: 100vh;
+}
+
+.bone{
+    height: 100vh;
+}
+
+footer{
+    background-color: #ddd;
+    text-align: center;
+    color: black;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.return{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;   
+}
+
+@media(max-width:640px){
+    .container{
+        display: block;
+        margin-left: 130px;
+    }
+
+    .camisa, .calca, .tenis, .bone{
+        height: auto;
+    }
+}
+
